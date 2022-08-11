@@ -1,0 +1,208 @@
+
+body
+{
+    font-family: "Montserrat";
+
+}
+#title 
+{
+    background-color: #ff4c68;
+    color: white;
+}
+h1
+{
+    font-family: "Montserrat" , sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.5;   
+    white-space: pre;
+}
+h2
+{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+.container-fluid
+{
+    padding: 3% 15% 7% ;
+}
+/* Navigation Bar */
+
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+.navbar-brand
+{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+/* Download Buttons */
+
+.buttons
+{
+    margin: 10% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image
+{
+    width: 24%;
+    transform: rotate(25deg);
+    margin-left: 6%;
+    position: absolute;
+    
+}
+
+/* Features Section */
+#features
+{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    
+}
+.fa-solid
+{
+   color: #ef8172;  
+   padding-bottom: 5%;
+}
+.fa-solid:hover
+{
+    color: #ff4c68;
+}
+h3
+{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+p
+{
+    color: #8f8f8f;
+
+}
+
+#feature-box
+{
+    text-align: center;
+    padding: 5%;
+}
+
+/* Testimonial Section */
+
+#testimonials
+{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.carousel-item
+{
+    padding: 7% 15%;
+    
+}
+.dog-image
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    position: absolute;
+    
+
+}
+#press
+{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+
+}
+.press-images
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+
+#pricing
+{
+    padding: 100px;
+    text-align: center;
+}
+.price-column
+{
+    padding: 3% 2%;
+}
+@media (max-width :  1028px){
+
+    #title
+    {
+        text-align: center;
+    }
+    .title-image
+    {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
+
+/* Call to Action Section */
+
+#cta
+{
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 7% 15%;
+    
+}
+.cta-text
+{
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+.buttons-cta
+{
+    margin: 7% 3% 5% 0;
+}
+
+/* Footer Section */
+
+#footer
+{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+.cta-icons
+{
+    color: #22252a;
+    margin: 20px 10px;
+    padding-bottom: 0;
+}
+.cta-icons:hover
+{
+    color: #22252a;
+}
